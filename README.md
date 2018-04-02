@@ -5,8 +5,8 @@ CRL, short for "Chromatin Reprogramming Level", is a measure of the degree that 
 
 CRL is computed as follows: 
 
-$\frac{signal_b - signal_a}{signal_c - signalb}$, where
-signal_a, signal_b and signal_c represent the normalized reads in starting state "a", current state "b" and target state "c".
+\frac{signal_b - signal_a}{signal_c - signalb}, 
+where signal_a, signal_b and signal_c represent the normalized reads in starting state "a", current state "b" and target state "c".
 
 CRL is a continuous real number, and its density is typically highest in the range (0, 1). A CRL score of 1 means that the chromatin accessibility matches exactly that in the target condition, and a score of 0 means that chromatin accessibility is not remodeled compared to the starting condition. 
 
